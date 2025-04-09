@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sladké Pokušenie - Cukráreň</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGÁCIA -->
+  <nav>
+    <ul>
+      <li><a href="#uvod">Domov</a></li>
+      <li><a href="#galeria">Galéria</a></li>
+      <li><a href="#onas">O nás</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- HLAVICKA -->
+  <header id="uvod">
+    <h1>🍰 Sladké Pokušenie </h1>
+    <p>Vaša nová obľúbená cukráreň plná vôní a chutí!</p>
+  </header>
+
+  <!-- GALÉRIA -->
+  <main>
+    <section class="gallery-section" id="galeria">
+      <h2>Naše dobroty</h2>
+      <div id="gallery" class="gallery">
+        <figure>
+          <img src="https://th.bing.com/th/id/OIP.5xiEQyK-nTeWrdn4FtVdegHaE2?w=213&h=180&c=7&r=0&o=5&pid=1.7" alt="Jahodová torta">
+          <figcaption>Jahodová torta s vanilkovým krémom</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="https://th.bing.com/th/id/OIP.WmsgvxFok72zV6odxHwFjgHaFy?rs=1&pid=ImgDetMain" alt="Kávička s penou">
+          <figcaption>Krémové cappuccino s penou</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="data:image/jpeg;base64,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" alt="Makrónky">
+          <figcaption>Farebné makrónky rôznych príchutí</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" alt="Čokoládový koláčik">
+          <figcaption>Hustý čokoládový koláčik s malinami</figcaption>
+        </figure>
+      </div>      
+    </section>
+
+    <!-- O NAS -->
+    <section class="about" id="onas">
+      <h2>O nás</h2>
+      <p>Sme novootvorená cukráreň zameraná na čerstvé, ručne robené dobroty. Príďte ochutnať, čo znamená pravá sladká rozkoš!</p>
+    </section>
+  </main>
+
+  <!-- PATICKA -->
+  <footer id="kontakt">
+    <p>📧 sladkesny@cukraren.sk | ☎️ +421 912 345 678</p>
+    <p>&copy; 2025 Sladké Sny. Všetky práva vyhradené.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
